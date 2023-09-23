@@ -23,9 +23,13 @@ int main()
 		{
 			makeEmptyData();
 		}
-		else ()
+		else if (x == "help")
 		{
-			cout << "Unknown command please write help for command";
+			cout << "quit ~ quits the program \nnew ~ creates a new empty inventory database \nadd ~ adds a new entry to the database \nremove ~ removes and entry from the database \n";
+		}
+		else
+		{
+			cout << "Unknown command please write help for a command list. \n";
 		}
 	}
 return 0;
