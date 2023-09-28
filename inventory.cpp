@@ -64,8 +64,26 @@ int makeEmptyData()
 	fstream outFile("inventory.json");
 	if(!outFile.is_open())
 	{
-		cerr << "Failed to open file for writing. \n";
-		return 1;
+		string r  = "n";
+		cout << "Empty file does not exist, create a new file? y/n \n";
+		cin >> r;
+		if(r == "n")
+		{
+			return 1;
+		}
+		if(r == "y")
+		{
+			fstream newFile;
+			newFile.open("inventory.json",ios::out);
+			if(!newFile)
+			{
+				cout << "Error in creating new file, try making one manually? \n";
+				return 1;
+			}
+			cout << "File created successfully. \n";
+			makeEmptyData();
+			return 0;
+		}
 	}
 	outFile << jsonString;
 	outFile.close();
