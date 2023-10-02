@@ -9,7 +9,11 @@ using namespace std;
 string x = "help";
 bool y = true;
 
+int findISBN();
+int loadData();
 int makeEmptyData();
+
+
 
 int main()
 {
@@ -37,6 +41,62 @@ int main()
 		}
 	}
 return 0;
+}
+
+int findISBN()
+{
+	Json::Value jsonArray;
+
+	fstream inFile("inventory.json");
+	if(!inFile.is_open())
+	{
+		cout << "Failed to open inventory file... \n";
+		return 1;
+	}
+	Json::Reader reader;
+	if (!reader.parse(inFile, jsonArray))
+	{
+		cout << "Failed to parse JSON data from the file... \n";
+		inFile.close();
+		return 1;
+	}
+	
+	int nTargetISBN = 42;
+	Json::Value foundBook;
+	
+	cout << "Please enter an ISBN to search for: \n";
+	cin >> nTargetISBN;
+
+	for (const Json::Value& bookObject : jsonArray)
+	{
+		int nIsbn = bookObject["ISBN"].asInt();
+		if (nIsbn == nTargetISBN)
+		{
+			foundBook == bookObject;
+			break;
+		}
+	}
+
+	if (!foundBook.empty())
+	{
+		cout << "Book found: \n";
+		cout << "SKU: " << foundBook["SKU"].asInt() << endl;
+		cout << "Title: " << foundBook["Title"].asString() << endl;
+		cout << "ISBN: " << foundBook["ISBN"].asInt() << endl;
+	} else 
+	{
+		cout << "Book with the ISBN " << nTargetISBN << " not found. \n";
+	}
+
+
+	inFile.close();
+	return 0;
+}
+
+
+int loadData() 
+{
+	return 0;
 }
 
 int makeEmptyData()
