@@ -9,6 +9,7 @@ using namespace std;
 string x = "help";
 bool y = true;
 
+int modEntry();
 int findISBN();
 int loadData();
 int makeEmptyData();
@@ -35,12 +36,23 @@ int main()
 		{
 			cout << "quit ~ quits the program \nnew ~ creates a new empty inventory database \nadd ~ adds a new entry to the database \nremove ~ removes and entry from the database \n";
 		}
+		else if (x == "lookup")
+		{
+			findISBN();
+		}
 		else
 		{
 			cout << "Unknown command please write help for a command list. \n";
 		}
 	}
 return 0;
+}
+
+int modEntry(Json::Value inBook)
+{
+	cout << "TEST FOR PASSING PARAM: \n";
+	cout << inBook["ISBN"].asInt() << endl;
+	return 1;
 }
 
 int findISBN()
@@ -72,17 +84,21 @@ int findISBN()
 		int nIsbn = bookObject["ISBN"].asInt();
 		if (nIsbn == nTargetISBN)
 		{
-			foundBook == bookObject;
+			foundBook = bookObject;
 			break;
 		}
 	}
 
 	if (!foundBook.empty())
 	{
+		cout << endl;
 		cout << "Book found: \n";
 		cout << "SKU: " << foundBook["SKU"].asInt() << endl;
 		cout << "Title: " << foundBook["Title"].asString() << endl;
 		cout << "ISBN: " << foundBook["ISBN"].asInt() << endl;
+		cout << "Stock: " << foundBook["Stock"].asInt() << endl;
+		cout << endl;
+		modEntry(foundBook);
 	} else 
 	{
 		cout << "Book with the ISBN " << nTargetISBN << " not found. \n";
@@ -90,12 +106,6 @@ int findISBN()
 
 
 	inFile.close();
-	return 0;
-}
-
-
-int loadData() 
-{
 	return 0;
 }
 
@@ -112,6 +122,7 @@ int makeEmptyData()
 		bookObject["SKU"] = i;
 		bookObject["Title"] = "Unspecified Book " + std::to_string(i);
 		bookObject["ISBN"] = 5000 + i;
+		bookObject["Stock"] = 0;
 
 		jsonArray.append(bookObject);
 	}
