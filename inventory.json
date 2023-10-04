@@ -2,501 +2,601 @@
 	{
 		"ISBN" : 5001,
 		"SKU" : 1,
-		"Title" : "Unspecified Book 1"
+		"Stock" : 1,
+		"Title" : "Alice In Wonderland"
 	},
 	{
 		"ISBN" : 5002,
 		"SKU" : 2,
-		"Title" : "Unspecified Book 2"
+		"Stock" : 4,
+		"Title" : "Winnie The Pooh"
 	},
 	{
 		"ISBN" : 5003,
 		"SKU" : 3,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 3"
 	},
 	{
 		"ISBN" : 5004,
 		"SKU" : 4,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 4"
 	},
 	{
 		"ISBN" : 5005,
 		"SKU" : 5,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 5"
 	},
 	{
 		"ISBN" : 5006,
 		"SKU" : 6,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 6"
 	},
 	{
 		"ISBN" : 5007,
 		"SKU" : 7,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 7"
 	},
 	{
 		"ISBN" : 5008,
 		"SKU" : 8,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 8"
 	},
 	{
 		"ISBN" : 5009,
 		"SKU" : 9,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 9"
 	},
 	{
 		"ISBN" : 5010,
 		"SKU" : 10,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 10"
 	},
 	{
 		"ISBN" : 5011,
 		"SKU" : 11,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 11"
 	},
 	{
 		"ISBN" : 5012,
 		"SKU" : 12,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 12"
 	},
 	{
 		"ISBN" : 5013,
 		"SKU" : 13,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 13"
 	},
 	{
 		"ISBN" : 5014,
 		"SKU" : 14,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 14"
 	},
 	{
 		"ISBN" : 5015,
 		"SKU" : 15,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 15"
 	},
 	{
 		"ISBN" : 5016,
 		"SKU" : 16,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 16"
 	},
 	{
 		"ISBN" : 5017,
 		"SKU" : 17,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 17"
 	},
 	{
 		"ISBN" : 5018,
 		"SKU" : 18,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 18"
 	},
 	{
 		"ISBN" : 5019,
 		"SKU" : 19,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 19"
 	},
 	{
 		"ISBN" : 5020,
 		"SKU" : 20,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 20"
 	},
 	{
 		"ISBN" : 5021,
 		"SKU" : 21,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 21"
 	},
 	{
 		"ISBN" : 5022,
 		"SKU" : 22,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 22"
 	},
 	{
 		"ISBN" : 5023,
 		"SKU" : 23,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 23"
 	},
 	{
 		"ISBN" : 5024,
 		"SKU" : 24,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 24"
 	},
 	{
 		"ISBN" : 5025,
 		"SKU" : 25,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 25"
 	},
 	{
 		"ISBN" : 5026,
 		"SKU" : 26,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 26"
 	},
 	{
 		"ISBN" : 5027,
 		"SKU" : 27,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 27"
 	},
 	{
 		"ISBN" : 5028,
 		"SKU" : 28,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 28"
 	},
 	{
 		"ISBN" : 5029,
 		"SKU" : 29,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 29"
 	},
 	{
 		"ISBN" : 5030,
 		"SKU" : 30,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 30"
 	},
 	{
 		"ISBN" : 5031,
 		"SKU" : 31,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 31"
 	},
 	{
 		"ISBN" : 5032,
 		"SKU" : 32,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 32"
 	},
 	{
 		"ISBN" : 5033,
 		"SKU" : 33,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 33"
 	},
 	{
 		"ISBN" : 5034,
 		"SKU" : 34,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 34"
 	},
 	{
 		"ISBN" : 5035,
 		"SKU" : 35,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 35"
 	},
 	{
 		"ISBN" : 5036,
 		"SKU" : 36,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 36"
 	},
 	{
 		"ISBN" : 5037,
 		"SKU" : 37,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 37"
 	},
 	{
 		"ISBN" : 5038,
 		"SKU" : 38,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 38"
 	},
 	{
 		"ISBN" : 5039,
 		"SKU" : 39,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 39"
 	},
 	{
 		"ISBN" : 5040,
 		"SKU" : 40,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 40"
 	},
 	{
 		"ISBN" : 5041,
 		"SKU" : 41,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 41"
 	},
 	{
 		"ISBN" : 5042,
 		"SKU" : 42,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 42"
 	},
 	{
 		"ISBN" : 5043,
 		"SKU" : 43,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 43"
 	},
 	{
 		"ISBN" : 5044,
 		"SKU" : 44,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 44"
 	},
 	{
 		"ISBN" : 5045,
 		"SKU" : 45,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 45"
 	},
 	{
 		"ISBN" : 5046,
 		"SKU" : 46,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 46"
 	},
 	{
 		"ISBN" : 5047,
 		"SKU" : 47,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 47"
 	},
 	{
 		"ISBN" : 5048,
 		"SKU" : 48,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 48"
 	},
 	{
 		"ISBN" : 5049,
 		"SKU" : 49,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 49"
 	},
 	{
 		"ISBN" : 5050,
 		"SKU" : 50,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 50"
 	},
 	{
 		"ISBN" : 5051,
 		"SKU" : 51,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 51"
 	},
 	{
 		"ISBN" : 5052,
 		"SKU" : 52,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 52"
 	},
 	{
 		"ISBN" : 5053,
 		"SKU" : 53,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 53"
 	},
 	{
 		"ISBN" : 5054,
 		"SKU" : 54,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 54"
 	},
 	{
 		"ISBN" : 5055,
 		"SKU" : 55,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 55"
 	},
 	{
 		"ISBN" : 5056,
 		"SKU" : 56,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 56"
 	},
 	{
 		"ISBN" : 5057,
 		"SKU" : 57,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 57"
 	},
 	{
 		"ISBN" : 5058,
 		"SKU" : 58,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 58"
 	},
 	{
 		"ISBN" : 5059,
 		"SKU" : 59,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 59"
 	},
 	{
 		"ISBN" : 5060,
 		"SKU" : 60,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 60"
 	},
 	{
 		"ISBN" : 5061,
 		"SKU" : 61,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 61"
 	},
 	{
 		"ISBN" : 5062,
 		"SKU" : 62,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 62"
 	},
 	{
 		"ISBN" : 5063,
 		"SKU" : 63,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 63"
 	},
 	{
 		"ISBN" : 5064,
 		"SKU" : 64,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 64"
 	},
 	{
 		"ISBN" : 5065,
 		"SKU" : 65,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 65"
 	},
 	{
 		"ISBN" : 5066,
 		"SKU" : 66,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 66"
 	},
 	{
 		"ISBN" : 5067,
 		"SKU" : 67,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 67"
 	},
 	{
 		"ISBN" : 5068,
 		"SKU" : 68,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 68"
 	},
 	{
 		"ISBN" : 5069,
 		"SKU" : 69,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 69"
 	},
 	{
 		"ISBN" : 5070,
 		"SKU" : 70,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 70"
 	},
 	{
 		"ISBN" : 5071,
 		"SKU" : 71,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 71"
 	},
 	{
 		"ISBN" : 5072,
 		"SKU" : 72,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 72"
 	},
 	{
 		"ISBN" : 5073,
 		"SKU" : 73,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 73"
 	},
 	{
 		"ISBN" : 5074,
 		"SKU" : 74,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 74"
 	},
 	{
 		"ISBN" : 5075,
 		"SKU" : 75,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 75"
 	},
 	{
 		"ISBN" : 5076,
 		"SKU" : 76,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 76"
 	},
 	{
 		"ISBN" : 5077,
 		"SKU" : 77,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 77"
 	},
 	{
 		"ISBN" : 5078,
 		"SKU" : 78,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 78"
 	},
 	{
 		"ISBN" : 5079,
 		"SKU" : 79,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 79"
 	},
 	{
 		"ISBN" : 5080,
 		"SKU" : 80,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 80"
 	},
 	{
 		"ISBN" : 5081,
 		"SKU" : 81,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 81"
 	},
 	{
 		"ISBN" : 5082,
 		"SKU" : 82,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 82"
 	},
 	{
 		"ISBN" : 5083,
 		"SKU" : 83,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 83"
 	},
 	{
 		"ISBN" : 5084,
 		"SKU" : 84,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 84"
 	},
 	{
 		"ISBN" : 5085,
 		"SKU" : 85,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 85"
 	},
 	{
 		"ISBN" : 5086,
 		"SKU" : 86,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 86"
 	},
 	{
 		"ISBN" : 5087,
 		"SKU" : 87,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 87"
 	},
 	{
 		"ISBN" : 5088,
 		"SKU" : 88,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 88"
 	},
 	{
 		"ISBN" : 5089,
 		"SKU" : 89,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 89"
 	},
 	{
 		"ISBN" : 5090,
 		"SKU" : 90,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 90"
 	},
 	{
 		"ISBN" : 5091,
 		"SKU" : 91,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 91"
 	},
 	{
 		"ISBN" : 5092,
 		"SKU" : 92,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 92"
 	},
 	{
 		"ISBN" : 5093,
 		"SKU" : 93,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 93"
 	},
 	{
 		"ISBN" : 5094,
 		"SKU" : 94,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 94"
 	},
 	{
 		"ISBN" : 5095,
 		"SKU" : 95,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 95"
 	},
 	{
 		"ISBN" : 5096,
 		"SKU" : 96,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 96"
 	},
 	{
 		"ISBN" : 5097,
 		"SKU" : 97,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 97"
 	},
 	{
 		"ISBN" : 5098,
 		"SKU" : 98,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 98"
 	},
 	{
 		"ISBN" : 5099,
 		"SKU" : 99,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 99"
 	},
 	{
 		"ISBN" : 5100,
 		"SKU" : 100,
+		"Stock" : 0,
 		"Title" : "Unspecified Book 100"
 	}
 ]
