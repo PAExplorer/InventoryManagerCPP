@@ -50,9 +50,24 @@ return 0;
 
 int modEntry(Json::Value inBook)
 {
-	cout << "TEST FOR PASSING PARAM: \n";
-	cout << inBook["ISBN"].asInt() << endl;
-	return 1;
+
+	
+	//prompt the user for a new number of books
+	cout << "Write new stock amount: \n";
+	//assign the old number to n just in case there is no value
+	int n = inBook["Stock"].asInt(); 
+	//get the input
+	cin >> n;
+
+	cout << "New stock number: \n";
+	//assign the new value to the json object	
+	inBook["Stock"] = n
+	
+	cout << inBook["Stock"].asInt();
+	
+	//save to file is needed ...I think
+	
+	return 0;
 }
 
 int findISBN()
@@ -98,7 +113,14 @@ int findISBN()
 		cout << "ISBN: " << foundBook["ISBN"].asInt() << endl;
 		cout << "Stock: " << foundBook["Stock"].asInt() << endl;
 		cout << endl;
-		modEntry(foundBook);
+		string n = "n";
+		cout << "Modify entry? y/n "
+		cin >>  n;
+		if (n == y)
+		{
+			//if prompt returns a yes we can take the entry and change
+			modEntry(foundBook);
+		}
 	} else 
 	{
 		cout << "Book with the ISBN " << nTargetISBN << " not found. \n";
